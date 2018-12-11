@@ -79,11 +79,6 @@ public class MinhasVendas extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tabl_prod);
 
-        list_vendas.setModel(new javax.swing.AbstractListModel<String>() {
-            String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
-            public int getSize() { return strings.length; }
-            public String getElementAt(int i) { return strings[i]; }
-        });
         list_vendas.addListSelectionListener(new javax.swing.event.ListSelectionListener() {
             public void valueChanged(javax.swing.event.ListSelectionEvent evt) {
                 list_vendasValueChanged(evt);
